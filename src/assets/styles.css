@@ -1,0 +1,120 @@
+.navigation.col-lg-12{
+    margin-top: 10px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.jumbotron{
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #ccc;
+}
+
+.navbar-nav .active{
+    border-bottom: 3px solid orange !important;
+}
+
+.navbar-default .navbar-nav>li>a{
+    transition: all 300ms;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    transition: all 300ms;
+    border-bottom: 3px solid orange;
+}
+
+.image_for_edit img{
+    width: 60px;
+}
+
+.avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 700px;
+    overflow: hidden;
+    margin-top: 9px;
+    margin-right: 2px;
+}
+
+.avatar img{
+    height: 45px;
+}
+
+.boton_transiciones {
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 20px;
+    border: 4px solid blue;
+    transition: all 2s, border-radius 500ms, background 5s;
+    display: block;
+    width: 100px;
+
+}
+
+.caja_animada{
+    margin-top: 15px;
+    background: green;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    animation-name: rotacion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.boton_transiciones:hover{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    border-radius: 2px;
+    background: #ccc;
+    border: 1px solid red;
+}
+
+/*
+@keyframes deslizamiento{
+    0% {
+        margin-left: 0px;
+    }
+    25% {
+        margin-left: 400px;
+        background: red;
+        border-radius: 1000px;
+    }
+    50% {
+        border-radius: 1000px;
+    }
+    75% {
+        margin-left: 0px;
+        background: yellow;
+        border-radius: 0px;
+    } 
+    100% {
+        background: green;
+    }   
+
+}*/
+
+@keyframes rotacion{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*
+@keyframes deslizamiento{
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: 400px;
+        background: red;
+    }
+}*/

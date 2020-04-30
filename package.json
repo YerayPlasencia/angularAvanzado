@@ -23,7 +23,7 @@
     "@ng-bootstrap/ng-bootstrap": "^5.1.4",
     "bootstrap": "^3.4.1",
     "dotdotdot": "^1.7.0",
-    "jquery": "1.12",
+    "jquery": "3.5",
     "jquery-dotdotdot": "1.8.2",
     "rxjs": "^6.4.0",
     "rxjs-compat": "^6.5.3",
